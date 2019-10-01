@@ -7,5 +7,7 @@ It supports QR codes and most of the common-used 1D codes.
 The codes are in /YiDecoder/yidec. The main.cpp and the vs project are used for testing the codes on computer.
 
 Dependencies:
+
 quirc (https://github.com/dlbeer/quirc) (The required files have been copied to /YiDecoder/quirc)
+
 opencv (Only used in main.cpp for testing the codes on computer)
