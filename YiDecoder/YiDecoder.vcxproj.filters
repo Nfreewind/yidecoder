@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="quirc">
+      <UniqueIdentifier>{5763dde9-9e28-461c-a494-07925189dabc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yidec">
+      <UniqueIdentifier>{8f621e06-5a5a-4bc5-a147-407e9b84123b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yidec\decoder1d">
+      <UniqueIdentifier>{5338145d-abbc-4753-b9d4-ca1b44a093e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yidec\decoder2d">
+      <UniqueIdentifier>{a2926431-07d8-4223-82f5-f5a47d73b401}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="quirc\decode.c">
+      <Filter>quirc</Filter>
+    </ClCompile>
+    <ClCompile Include="quirc\identify.c">
+      <Filter>quirc</Filter>
+    </ClCompile>
+    <ClCompile Include="quirc\quirc.c">
+      <Filter>quirc</Filter>
+    </ClCompile>
+    <ClCompile Include="quirc\version_db.c">
+      <Filter>quirc</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="yidec\basic.c">
+      <Filter>yidec</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoderset.c">
+      <Filter>yidec</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\symedit.c">
+      <Filter>yidec</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\symvalid.c">
+      <Filter>yidec</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\yydecoder.c">
+      <Filter>yidec</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\addition.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\code11.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\code39.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\code93.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\code128.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\codebar.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\ean8.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\ean13.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\industry25.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\interleave25.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\matrix25.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\msi.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\pharma.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\upca.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder1d\upce.c">
+      <Filter>yidec\decoder1d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder2d\img_curfit.c">
+      <Filter>yidec\decoder2d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder2d\img_scanner.c">
+      <Filter>yidec\decoder2d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder2d\img_scanner_line.c">
+      <Filter>yidec\decoder2d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder2d\img_scanner_qr.c">
+      <Filter>yidec\decoder2d</Filter>
+    </ClCompile>
+    <ClCompile Include="yidec\decoder2d\img_perspect.c">
+      <Filter>yidec\decoder2d</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
